@@ -25,6 +25,7 @@
     background-color: yellow;
     justify-content: center;
     align-items: flex-start;
+    display: none;
 }
 
 .gridStyle {

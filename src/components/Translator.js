@@ -112,9 +112,6 @@ class Translator extends React.Component {
                         </Row>
                     </>
                 </Content>
-                <Footer className="Translator-footer">
-                    Footer
-                </Footer>
             </Layout>
         );
     }
