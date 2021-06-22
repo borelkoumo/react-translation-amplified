@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// import App from './App';
+import Translator from './components/Translator';
+
+import Amplify from 'aws-amplify';
+import awsExports from './aws-exports';
+import { AmazonAIPredictionsProvider } from '@aws-amplify/predictions';
+
+
+Amplify.configure(awsExports);
+Amplify.addPluggable(new AmazonAIPredictionsProvider());
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Translator />
   </React.StrictMode>,
   document.getElementById('root')
 );

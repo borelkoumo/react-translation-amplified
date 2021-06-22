@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "reacttranslationamplfeb210d3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "predictions": {
+    "translateTextb4765cdb": {
+      "providerPlugin": "awscloudformation",
+      "service": "Translate",
+      "convertType": "translateText"
+    }
+  }
+}

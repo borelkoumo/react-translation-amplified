@@ -1,0 +1,72 @@
+.Translator-maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Translator-header {
+    display: flex;
+    width: 100%;
+    /* height: 10vh; */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Translator-content {
+    max-width: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Translator-footer {
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gridStyle {
+    /* width: 40%; */
+    text-align: 'center';
+}
+
+.searchDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* height: 10vh; */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.searchOptionsDiv {
+    display: flex;
+    width: 100%;
+    margin-top: 10;
+    justify-content: center;
+}
+
+.searchInputDiv {
+    display: flex;
+    width: 100%;
+    margin-top: 10;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.searchInputCol {
+    /* display: flex; */
+    width: 100%;
+    /* margin-top: 10; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
