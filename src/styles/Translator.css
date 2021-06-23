@@ -11,23 +11,13 @@
     justify-content: center;
     align-items: flex-start;
     color: wheat;
-    background-color: tomato;
 }
 
 .Translator-content {
     width: 100%;
-    max-width: 60vh;
+    /*max-width: 60vh;*/
     background-color: white;
     padding: 3vh;
-}
-
-.Translator-footer {
-    display: flex;
-    width: 100%;
-    background-color: yellow;
-    justify-content: center;
-    align-items: flex-start;
-    display: none;
 }
 
 .gridStyle {
@@ -75,8 +65,8 @@
 .textStyle {
     text-align: justify;
     margin-top: 2vh;
-    max-height: 20vh;
-    min-height: 10vh;
+    height: 25vh;
+    /*height: 10vh;*/
 }
 
 .footerStyle {

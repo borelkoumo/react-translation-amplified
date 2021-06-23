@@ -15,7 +15,7 @@ class Translator extends React.Component {
     constructor(props) {
         super(props);
         this.sourceText = 'Veuillez saisir un texte ...'
-        this.targetText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        this.targetText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pub"
         this.sourceLang = 'fr'
         this.targetLang = 'es'
 
@@ -85,8 +85,8 @@ class Translator extends React.Component {
                     <Space>
                         <ZhihuOutlined style={{ fontSize: '5vh', color: '#08c' }} />
                         <Title level={3} style={{ color: 'tomato', }}>AWS Amplify</Title><br />
+                        <Text italic style={{ color: 'wheat' }} >Translator</Text>
                     </Space>
-                    <Text italic style={{ color: 'wheat' }} >Translator</Text>
                 </Header>
                 <Divider orientation='center'>Traduction</Divider>
                 <Content className='Translator-content'>
@@ -95,7 +95,7 @@ class Translator extends React.Component {
                             <Col span={24} >
                                 <div className='searchDiv'>
                                     <Select
-                                        // defaultValue="fr"
+                                        defaultValue={this.state.sourceLang}
                                         // bordered={false}
                                         showSearch
                                         style={{ width: 150 }}
@@ -137,7 +137,7 @@ class Translator extends React.Component {
                         <Divider orientation="left"></Divider>
                         <Row>
                             <Col span={24}>
-                                <TextArea placeholder={this.state.sourceText} rows={5} onChange={e => { this.setState({ sourceText: e.target.value }); this._translate() }} showCount allowClear maxLength={1000} />
+                                <TextArea placeholder={this.state.sourceText} rows={5} onChange={e => { this.setState({ sourceText: e.target.value }); this._translate() }} showCount allowClear maxLength={500} />
                             </Col>
                         </Row>
                         <Row>
