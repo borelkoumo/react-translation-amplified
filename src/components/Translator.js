@@ -46,6 +46,7 @@ class Translator extends React.Component {
 
     onFocus = () => {
         console.log('focus');
+        this._translate()
     }
 
     onSearch = (value) => {

@@ -75,6 +75,7 @@
 .textStyle {
     text-align: justify;
     margin-top: 2vh;
+    max-height: 20vh;
     min-height: 10vh;
 }
 
