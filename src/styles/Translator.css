@@ -10,11 +10,13 @@
     width: 100%;
     justify-content: center;
     align-items: flex-start;
+    color: wheat;
+    background-color: tomato;
 }
 
 .Translator-content {
     width: 100%;
-    max-width: 100vh;
+    max-width: 60vh;
     background-color: white;
     padding: 3vh;
 }
@@ -46,6 +48,12 @@
 .searchOptionsDiv {
     margin-top: 10;
     margin-bottom: 10;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 .searchInputDiv {
@@ -66,5 +74,11 @@
 
 .textStyle {
     text-align: justify;
+    margin-top: 2vh;
+    min-height: 10vh;
+}
+
+.footerStyle {
+    text-align: center;
     margin-top: 2vh;
 }
